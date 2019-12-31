@@ -17,13 +17,11 @@ comments: true
 ## Overview
 
 기본적인 자료구조의 분류는 아래와 같다. 
-
 ![datastructure](./../assets/img/data_structure.jpg)
-
 먼저 자료 구조는 선형구조(Linear Structure)와 비선형구조(Non-linear Structure)로 나누어진다.
 선형구조와 비선형구조의 자료가 동일한 객체의 무방향성 나열성을 가지는가를 기준으로 나눌 수 있다.
 선형구조의 경우, 뒤에서 설명할 list, stack, queue, deque와 같이 객체를 index와 같은 한 가지 가준으로 나열한 형태이다. 
-비선형구조의 경우, tree, graph와 같이 hierarchy를 가지는 등 한 가지 기준에 의해 자료가 나열된 형태가 아닌 형태이다.
+비선형구조의 경우, tree, graph와 같이 hierarchy를 가지는 등 한 가지 기준에 의해 자료가 나열되지 않은 형태이다.
 
 #### Linear Structure
 
