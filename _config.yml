@@ -26,7 +26,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   SShowbiz
+disqus_shortname:   false
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -52,7 +52,7 @@ github-url:         SShowbiz
 #foursquare:        username
 steam:              hwkim408
 #dribbble:          username
-youtube:            xHJDfkIQdaFfdT-4kAPn8g
+#youtube:            xHJDfkIQdaFfdT-4kAPn8g
 #youtube-channel:   channel
 #soundcloud:        username
 #weibo:             username
