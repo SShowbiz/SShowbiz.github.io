@@ -22,7 +22,11 @@ Linear List의 ADT는 다음과 같다.
 
 위의 ADT에 따라 구현되는 자료의 시각적인 모습은 다음과 같다.
 
-<center><img src="./../assets/img/Linear_List.jpg" width=70%></center>
+{% highlight html %}
+<figure class="third">
+	<center><img src="./../assets/img/Linear_List.jpg" width="70%"></center>
+</figure>
+{% endhighlight %}
 
 그림에서 보이는 바와 같이, linear list의 기본적인 자료구조는 size 크기의 array이다. 정의된 array 내부에서 자유롭게 공간을 할당하여 list를 구현할 수 있다.
 

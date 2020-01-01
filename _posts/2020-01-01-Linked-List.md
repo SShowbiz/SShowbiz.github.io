@@ -32,7 +32,8 @@ Linked List의 ADT는 다음과 같다.
 
 위의 ADT에 따라 구현되는 자료의 시각적인 모습은 다음과 같다.
 
-<center><img src="./../assets/img/Linked_List.jpg" width=70%></center>
+
+![linkedlist](./../assets/img/Linked_List.jpg")
 
 그림에서 보이는 바와 같이, linear list의 기본적인 자료구조는 Node와 Node간의 연결관계를 나타내는 reference값들이다.
 Node 하나당 값 하나를 포함하고 있기 때문에 Node를 추가, 제거 하면서 자유롭게 공간을 할당할 수 있다.
