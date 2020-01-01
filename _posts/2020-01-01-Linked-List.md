@@ -27,18 +27,17 @@ Linked List의 ADT는 다음과 같다.
 -  int list_size
 -  void insert(int position, type element)
 -  void delete(int position)
--  type get(int position)
+-  type& get(int position)
 -  int list_size()
 
 위의 ADT에 따라 구현되는 자료의 시각적인 모습은 다음과 같다.
-
 
 ![linkedlist](./../assets/img/Linked_List.jpg")
 
 그림에서 보이는 바와 같이, linear list의 기본적인 자료구조는 Node와 Node간의 연결관계를 나타내는 reference값들이다.
 Node 하나당 값 하나를 포함하고 있기 때문에 Node를 추가, 제거 하면서 자유롭게 공간을 할당할 수 있다.
 
-공간을 할당하는 방법으로는 push와 pop 함수가 존재한다.
+공간을 할당하는 방법으로는 insert와 delete 함수가 존재한다.
 
 insert 함수를 통해 linked list의 특정 index에 element를 추가할 수 있고, delet함수를 통해 linked list의 특정부분의 element를 제거할 수 있다.
 insert 함수를 통해 element가 추가되면 list_size를 1만큼 증가시켜 주어야하고, delete 함수를 통해 element가 제거되면 list_size를 1만큼 감소시켜 주어야한다.
@@ -66,14 +65,14 @@ head부터 position까지 traverse한 후에, 기존의 position-1 위치의 nex
 Traverse 하는 과정 때문에 O(n)의 Time complexity를 가진다.
 > time complexity: O(n)
 
-#### type get(int position)
+#### type& get(int position)
 list의 특정 index에 element를 추출하는 함수이다.
 head부터 position까지 traverse한 후에 그 Node에 들어있는 값을 return하면 된다.
 Traverse 하는 과정 때문에 O(n)의 Time complexity를 가진다.
 > time complexity: O(n)
 
 #### int list_size()
-list의 특정 index의 값을 resturn하는 함수이다.
+list의 size를 resturn하는 함수이다.
 private 변수인 list_size값을 return하면 된다.
 > time complexity: O(1)
 

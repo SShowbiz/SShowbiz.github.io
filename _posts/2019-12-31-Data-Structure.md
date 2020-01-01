@@ -30,8 +30,8 @@ comments: true
 - Linear List는 객체의 선형 나열이다. Array와 다른 점은 그 size가 정의한 순간 고정되지 않고 자유롭게 insert 및 delete가 가능하다는 점이다.
 - Linked List또한 Linear List와 같이 객체의 선형 나열이다. Linear List와 다른 점은 객체를 정의할 때 배열을 쓰지 않고 node와 다음 node를 가리키는 pointer를 이용한다는 점이다.
 - Stack은 자료를 추가하는 함수인 insert와 자료를 제거하는 함수인 pop이 존재하여, 가장 나중에 추가한 자료부터 제거되는 자료의 형태이다.
-- Queue는 자료를 추가하는 함수인 queue와 자료를 제거하는 함수인 deque가 존재하여, 가장 먼저 추가한 자료부터 제거되는 자료의 형태이다.
-- Deque는 자료를 추가하는 함수인 queue와 자료를 제거하는 함수인 deque가 존재하여, queue와 deque 모두 기존 자료의 양 끝 중 한 곳을 선택하여 추가 및 제거할 수 있는 자료의 형태이다.
+- Queue는 자료를 추가하는 함수인 enqueue와 자료를 제거하는 함수인 deque가 존재하여, 가장 먼저 추가한 자료부터 제거되는 자료의 형태이다.
+- Deque는 자료를 추가하는 함수인 enqueue와 자료를 제거하는 함수인 deque가 존재하여, queue와 deque 모두 기존 자료의 양 끝 중 한 곳을 선택하여 추가 및 제거할 수 있는 자료의 형태이다.
 
 #### Non-Linear Structure
 

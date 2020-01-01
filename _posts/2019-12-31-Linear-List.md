@@ -17,15 +17,13 @@ Linear List의 ADT는 다음과 같다.
 -  int list_size
 -  void insert(type element, int position)
 -  void delete(type element, int position)
--  type get(int position)
+-  type& get(int position)
 -  int list_size()
 
 위의 ADT에 따라 구현되는 자료의 시각적인 모습은 다음과 같다.
 
+![linkedlist](./../assets/img/Linear_List.jpg){: width="70%"}
 
-<figure class="third">
-	<p align="center"><img src="./../assets/img/Linear_List.jpg" width="100%"></p>
-</figure>
 
 그림에서 보이는 바와 같이, linear list의 기본적인 자료구조는 size 크기의 array이다. 정의된 array 내부에서 자유롭게 공간을 할당하여 list를 구현할 수 있다.
 
@@ -74,7 +72,7 @@ position index 이후의 값들을 한 칸 앞(좌측)으로 이동시키면 된
 position의 randomness에 의해 값을 이동시키는 complexity가 O(n)이다.
 > time complexity: O(n)
 
-#### type get(int position)
+#### type& get(int position)
 list의 특정 index의 값을 resturn하는 함수이다.
 arr[position]에 접근하여 출력하면 된다.
 > time complexity: O(1)
