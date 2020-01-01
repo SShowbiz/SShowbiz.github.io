@@ -17,6 +17,7 @@ Linear List의 ADT는 다음과 같다.
 -  int list_size
 -  void insert(type element, int position)
 -  void delete(type element, int position)
+-  type get(int position)
 -  int list_size()
 
 위의 ADT에 따라 구현되는 자료의 시각적인 모습은 다음과 같다.
@@ -35,7 +36,13 @@ Resizing을 위한 방법으로는 할당량 초과가 나타난 순간 size를 
 
 ## Operation Complexity
 
-Linear list에서 제공하는 함수는 insert와 delete이다.
+Linear list에서 제공하는 함수는 insert와 delete, 그리고 list_size이다.
+
+#### int list_size()
+
+list의 size를 반환하는 함수이다.
+private 변수인 list_size를 return해주면 된다.
+> time complexity: O(1)
 
 #### void insert(type element)
 
@@ -62,3 +69,8 @@ position index 이후의 값들을 한 칸 앞(좌측)으로 이동시키면 된
 이전과 같이 list_size를 1 감소시키는 과정도 필요하다.
 position의 randomness에 의해 값을 이동시키는 complexity가 O(n)이다.
 > time complexity: O(n)
+
+#### type get(int position)
+list의 특정 index의 값을 resturn하는 함수이다.
+arr[position]에 접근하여 출력하면 된다.
+> time complexity: O(1)
