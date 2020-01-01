@@ -75,3 +75,18 @@ Traverse 하는 과정 때문에 O(n)의 Time complexity를 가진다.
 list의 특정 index의 값을 resturn하는 함수이다.
 private 변수인 list_size값을 return하면 된다.
 > time complexity: O(1)
+
+## Comparison with Linear List
+
+앞서 소개해준 바에 따르면, linked list와 linear list 모두 특정 위치에서 insert와 delete가 O(n)인 것을 알 수 있다.
+그렇다면, 어떤 장점이 있어서 linked list를 쓰는 것일까?
+
+답은 간단하다. Linked list에서 insert와 remove를 할 때 parameter로 해당 node를 준다면 O(1)의 complexity로 실행이 가능하다.
+또한 앞서 설명한 것 처럼 큰 array를 사용하지 않아 공간 효율성이 좋고 resizing에 시간을 쓰지 않는다.
+
+## Application
+
+Linked list는 다양한 응용이 가능하다.
+그 예시로 유명한 것이 doubly linked list와 dummy linked list이다.
+Doubly linked list는 각 Node가 뒤 Node의 reference값 뿐만 아니라 앞 Node의 reference값 또한 가지고 있는 list이다.
+Dummy linked list는 head가 dummy node로, list가 0개의 data를 가진 상황에서의 insert를 if 문 없이 처리할 수 있다.
