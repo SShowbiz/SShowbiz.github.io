@@ -31,7 +31,8 @@ Linked List의 ADT는 다음과 같다.
 -  int list_size()
 
 위의 ADT에 따라 구현되는 자료의 시각적인 모습은 다음과 같다.
-![linearlist](./../assets/img/Linked_List.jpg)
+
+<center><img src="./../assets/img/Linked_List.jpg" width=70%></center>
 
 그림에서 보이는 바와 같이, linear list의 기본적인 자료구조는 Node와 Node간의 연결관계를 나타내는 reference값들이다.
 Node 하나당 값 하나를 포함하고 있기 때문에 Node를 추가, 제거 하면서 자유롭게 공간을 할당할 수 있다.
@@ -71,8 +72,6 @@ Traverse 하는 과정 때문에 O(n)의 Time complexity를 가진다.
 > time complexity: O(n)
 
 #### int list_size()
-list의 특정 index의 element를 삭제하는 함수이다.
-position index 이후의 값들을 한 칸 앞(좌측)으로 이동시키면 된다.
-이전과 같이 list_size를 1 감소시키는 과정도 필요하다.
-position의 randomness에 의해 값을 이동시키는 complexity가 O(n)이다.
-> time complexity: O(n)
+list의 특정 index의 값을 resturn하는 함수이다.
+private 변수인 list_size값을 return하면 된다.
+> time complexity: O(1)
