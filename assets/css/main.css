@@ -289,6 +289,38 @@ img { max-width: 100%; height: auto; display: block; }
   border-top: 1px solid var(--border);
   text-align: center;
 }
+.site-footer p { margin: 4px 0; }
+.visitor-count {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.visitor-pill {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 4px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  color: var(--fg-muted);
+}
+.visitor-label {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+}
+.visitor-number {
+  color: var(--fg);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.visitor-sep {
+  color: var(--fg-muted);
+  font-weight: 400;
+  margin: 0 2px;
+}
 
 /* Responsive */
 @media (max-width: 720px) {
