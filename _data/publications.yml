@@ -1,3 +1,22 @@
+- title: "DeVI: Physics-based Dexterous Human-Object Interaction via Synthetic Video Imitation"
+  venue: Preprint
+  authors:
+    - name: Hyeonwoo Kim
+      url: https://sshowbiz.github.io/
+      me: true
+    - name: Jeonghwan Kim
+      url: https://canoneod.github.io/
+    - name: Kyungwon Cho
+      url: https://kyungwoncho.github.io/
+    - name: Hanbyul Joo
+      url: https://jhugestar.github.io/
+  image: /assets/images/devi.gif
+  links:
+    # - label: Paper
+    #   url: 
+    - label: Project Page
+      url: https://snuvclab.github.io/devi/
+
 - title: "DAViD: Modeling Dynamic Affordance of 3D Objects Using Pre-trained Video Diffusion Models"
   venue: ICCV 2025
   authors:
