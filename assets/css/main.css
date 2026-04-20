@@ -194,6 +194,16 @@ img { max-width: 100%; height: auto; display: block; }
   white-space: nowrap;
   font-variant-numeric: tabular-nums;
   padding-top: 2px;
+  text-align: right;
+}
+.timeline-loc {
+  font-size: 0.8rem;
+  margin-top: 2px;
+  color: var(--fg-muted);
+}
+.timeline-role {
+  color: var(--fg-soft);
+  font-weight: 500;
 }
 .muted { color: var(--fg-muted); }
 

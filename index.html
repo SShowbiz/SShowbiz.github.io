@@ -93,12 +93,15 @@ title: Hyeonwoo Kim
     <li class="timeline-item">
       <div class="timeline-main">
         <h3 class="timeline-heading">
-          {{ item.role }} &middot;
           {% if item.url %}<a href="{{ item.url }}">{{ item.organization }}</a>{% else %}{{ item.organization }}{% endif %}
+          <span class="timeline-role">&middot; {{ item.role }}</span>
         </h3>
-        <p class="timeline-sub">{{ item.description }} <span class="muted">&mdash; {{ item.location }}</span></p>
+        <p class="timeline-sub">{{ item.description }}</p>
       </div>
-      <div class="timeline-date">{{ item.start }} &ndash; {{ item.end }}</div>
+      <div class="timeline-date">
+        <div>{{ item.start }} &ndash; {{ item.end }}</div>
+        {% if item.location %}<div class="timeline-loc">{{ item.location }}</div>{% endif %}
+      </div>
     </li>
     {% endfor %}
   </ul>
