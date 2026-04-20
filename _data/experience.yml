@@ -1,0 +1,39 @@
+- role: Research Intern &rarr; MS/PhD Student
+  organization: Visual Computing Lab
+  url: https://jhugestar.github.io/
+  location: Seoul, Korea
+  start: Mar 2023
+  end: Current
+  description: Practical 3D computer vision, human-object interaction, and affordance learning.
+
+- role: Applied AI Research Intern
+  organization: NAVER WEBTOON Corp.
+  url: https://webtoonscorp.com/
+  location: Seongnam, Korea
+  start: Jan 2023
+  end: Mar 2023
+  description: WebtoonMe team; 2D full-body portrait stylization using diffusion models.
+
+- role: Graduation Project Intern
+  organization: 3D Vision Lab
+  url: https://3d.snu.ac.kr/
+  location: Seoul, Korea
+  start: Jul 2022
+  end: Dec 2022
+  description: Text-driven stylization for sparse point clouds.
+
+- role: Software Engineer
+  organization: Humanscape Inc.
+  url: https://humanscape.io/
+  location: Seoul, Korea
+  start: Apr 2020
+  end: Jun 2022
+  description: Developed Clinical Trials Korea web service; designed APIs; maintained Rarenote applications.
+
+- role: NAND Development, Analog IP Intern
+  organization: SK Hynix
+  url: https://www.skhynix.com/
+  location: Seongnam, Korea
+  start: Jun 2019
+  end: Aug 2019
+  description: Verification scripting for circuit feature matching.

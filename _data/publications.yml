@@ -1,0 +1,98 @@
+- title: "DAViD: Modeling Dynamic Affordance of 3D Objects Using Pre-trained Video Diffusion Models"
+  venue: ICCV 2025
+  authors:
+    - name: Hyeonwoo Kim
+      url: https://sshowbiz.github.io/
+      me: true
+    - name: Sangwon Baik
+      url: https://tlb-miss.github.io/
+    - name: Hanbyul Joo
+      url: https://jhugestar.github.io/
+  image: /assets/images/david.gif
+  links:
+    - label: Paper
+      url: https://arxiv.org/abs/2501.08333
+    - label: Video
+      url: https://youtu.be/aAU-EpiV7HU
+    - label: Project Page
+      url: https://snuvclab.github.io/david/
+
+- title: "Learning 3D Object Spatial Relationships from Pre-trained 2D Diffusion Models"
+  venue: ICCV 2025
+  authors:
+    - name: Sangwon Baik
+      url: https://tlb-miss.github.io/
+    - name: Hyeonwoo Kim
+      url: https://sshowbiz.github.io/
+      me: true
+    - name: Hanbyul Joo
+      url: https://jhugestar.github.io/
+  image: /assets/images/oor.gif
+  links:
+    - label: Paper
+      url: https://arxiv.org/abs/2503.19914
+    - label: Project Page
+      url: https://tlb-miss.github.io/oor/
+
+- title: "Beyond the Contact: Discovering Comprehensive Affordance for 3D Objects from Pre-trained 2D Diffusion Models"
+  venue: ECCV 2024, Oral Presentation
+  authors:
+    - name: Hyeonwoo Kim
+      url: https://sshowbiz.github.io/
+      me: true
+      equal: true
+    - name: Sookwan Han
+      url: https://scholar.google.com/citations?user=UHijkVsAAAAJ
+      equal: true
+    - name: Patrick Kwon
+      url: https://scholar.google.com/citations?user=mMQo8K4AAAAJ
+    - name: Hanbyul Joo
+      url: https://jhugestar.github.io/
+  image: /assets/images/coma.gif
+  links:
+    - label: Paper
+      url: https://arxiv.org/abs/2401.12978
+    - label: Video
+      url: https://youtu.be/H1mDX0HdtSY
+    - label: Project Page
+      url: https://snuvclab.github.io/coma/
+
+- title: "Text2Scene: Text-driven Indoor Scene Stylization with Part-aware Details"
+  venue: CVPR 2023, Highlight
+  authors:
+    - name: Inwoo Hwang
+      url: https://inwoohwang.me/
+    - name: Hyeonwoo Kim
+      url: https://sshowbiz.github.io/
+      me: true
+    - name: Young Min Kim
+      url: https://3d.snu.ac.kr/
+  image: /assets/images/text2scene.gif
+  links:
+    - label: Paper
+      url: https://openaccess.thecvf.com/content/CVPR2023/papers/Hwang_Text2Scene_Text-Driven_Indoor_Scene_Stylization_With_Part-Aware_Details_CVPR_2023_paper.pdf
+    - label: Video
+      url: https://www.youtube.com/watch?v=CGIXY2kwIYM
+    - label: Project Page
+      url: https://3d.snu.ac.kr/
+
+- title: "Text2PointCloud: Text-driven Stylization for Sparse PointCloud"
+  venue: Eurographics Short 2023
+  authors:
+    - name: Inwoo Hwang
+      url: https://inwoohwang.me/
+    - name: Hyeonwoo Kim
+      url: https://sshowbiz.github.io/
+      me: true
+    - name: Donggeun Lim
+      url: https://rms0329.github.io/
+    - name: Inbum Park
+      url: https://inbumpark.github.io/
+    - name: Young Min Kim
+      url: https://3d.snu.ac.kr/
+  image: /assets/images/text2pointcloud.gif
+  links:
+    - label: Paper
+      url: https://diglib.eg.org/
+    - label: Video
+      url: https://www.youtube.com/watch?v=aGDaKHKv1Xc

@@ -1,0 +1,33 @@
+title: Hyeonwoo Kim
+tagline: My ultimate goal is to enhance and evolve people's daily lives
+description: >-
+  MS/PhD student in 3D computer vision at Seoul National University,
+  Visual Computing Lab, supervised by Prof. Hanbyul Joo.
+author: Hyeonwoo Kim
+email: hwkim408@snu.ac.kr
+url: "https://sshowbiz.github.io"
+
+profile_image: /assets/images/profile_v2.png
+
+social:
+  github: https://github.com/SShowbiz
+  linkedin: https://www.linkedin.com/in/hyeonwoo-kim-4a8b3a1b4/
+  cv: https://drive.google.com/file/d/1mtb5U7dn0wPg34sz9s4YbwOJTPBc1Gpf/view?usp=sharing
+  scholar: https://scholar.google.com/citations?hl=ko&user=IaPmyTsAAAAJ
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .bundle
+
+plugins:
+  - jekyll-seo-tag

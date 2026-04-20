@@ -1,0 +1,13 @@
+- institution: Seoul National University
+  degree: BS in Electric & Computer Engineering
+  start: Mar 2017
+  end: Aug 2023
+  url: https://en.snu.ac.kr/
+  logo: /assets/images/SNU.png
+
+- institution: Korea Science Academy of KAIST
+  degree: High School
+  start: Mar 2014
+  end: Feb 2017
+  url: https://www.ksa.hs.kr/
+  logo: /assets/images/KSA.png
