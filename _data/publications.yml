@@ -11,11 +11,11 @@
     - name: Hanbyul Joo
       url: https://jhugestar.github.io/
   image: /assets/images/devi.gif
-  links: []
-    # - label: Paper
-    #   url:
-    # - label: Project Page
-    #   url: https://snuvclab.github.io/devi/
+  links:
+    - label: Paper
+      url: https://arxiv.org/abs/2604.20841
+    - label: Project Page
+      url: https://snuvclab.github.io/devi/
 
 - title: "DAViD: Modeling Dynamic Affordance of 3D Objects Using Pre-trained Video Diffusion Models"
   venue: ICCV 2025
