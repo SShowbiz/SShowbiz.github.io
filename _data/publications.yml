@@ -17,6 +17,31 @@
     - label: Project Page
       url: https://snuvclab.github.io/devi/
 
+- title: "SimuScene: Simulation-Ready Compositional 3D Scene Reconstruction from a Single Image"
+  venue: Preprint
+  authors:
+    - name: Inhee Lee
+      url: https://blog.sulwon.com/
+      equal: true
+    - name: Sangwon Baik
+      url: https://tlb-miss.github.io/
+      equal: true
+    - name: Sungjoo Kim
+      url: https://junesjukim.github.io/
+    - name: Hyeonwoo Kim
+      url: https://sshowbiz.github.io/
+      me: true
+    - name: Hyunsoo Cha
+      url: https://hyunsoocha.github.io/
+    - name: Hanbyul Joo
+      url: https://jhugestar.github.io/
+  image: /assets/images/simuscene.gif
+  links:
+    - label: Paper
+      url: https://arxiv.org/abs/2606.03994
+    - label: Project Page
+      url: https://snuvclab.github.io/SimuScene/
+
 - title: "DAViD: Modeling Dynamic Affordance of 3D Objects Using Pre-trained Video Diffusion Models"
   venue: ICCV 2025
   authors:
